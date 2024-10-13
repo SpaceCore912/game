@@ -86,7 +86,7 @@ def war(list,deck1,deck2):
 		then both players flip face up a 4th card. The player with the stronger
 		card takes all the cards.		
 	"""
-    global deck1extra, deck2extra
+
     list1=list
     i=0
     print("\nPEACE")
