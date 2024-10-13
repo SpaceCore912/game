@@ -11,7 +11,7 @@ deck = []
 for rank in ranks:
             for suit in suits:
                 deck.append((rank,suit))
-print(deck)
+
 
 
 random.shuffle(deck)
@@ -25,7 +25,7 @@ deck2=deck[26:]
 deck1extra=[]
 deck2extra=[]
 
-print(deck1)
+
 
 def card_comparison(p1_card, p2_card):
     """This is the logic that compares two cards to find the stronger card
@@ -89,7 +89,7 @@ def war(list,deck1,deck2):
     global deck1extra, deck2extra
     list1=list
     i=0
-    print("peace")
+    print("\nPEACE")
     
     while i<5:
         list1.append(deck1[0])
